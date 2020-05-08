@@ -1,34 +1,9 @@
-## Welcome to the LAZY script  v2.1.4
-<p align="center">
-<img src="https://i.imgur.com/awIplS6.jpg"/>
-<img src="https://i.imgur.com/pbq0DuE.jpg"/>
-<img src="https://i.imgur.com/QgTLKxR.jpg"/>
-<img src="https://i.imgur.com/oJIk2oG.jpg"/>
-<img src="https://i.imgur.com/icT4x55.jpg"/>
-<img src="https://i.imgur.com/sSf1JcI.jpg"/>
-<img src="https://i.imgur.com/MlDFWax.jpg"/>
-<img src="https://i.imgur.com/rbdUIQI.jpg"/>
-</p>
-A video Hackersploit made : https://www.youtube.com/watch?v=oBpo5sElrMY
+## Welcome to Boomerang v1
 
-A video sstec made:         https://www.youtube.com/watch?v=gSO7c2MN7TY
+**This file is to be used for legal purposes only.**
 
-**For feature-recommendation , add it on the "Issues" tab. NOW!**
-
-**I AM NOT RESPONSIBLE HOW YOU USE THIS TOOL.BE LEGAL AND NOT STUPID.**
-
-**This script will make your life easier, and of course faster.**
-
-**Its not only for noobs.Its for whoever wants to type less and do actually more.**
-
-### What is this
-This is a script for Kali Linux that automates many procedures about wifi penetration and hacking.
-I actually made it for fun for me just to save some time, but i don't mind publicing it.
-
-### Features
-
-   ### NEW FEATURE: Custom keyboard shortcuts!! Launch any tool within lscript , with your own shortcuts!!! (type ks to set your shortcuts)
-	
+### Tips
+Type ks to set custom shortcuts.
 Enabling-Disabling interfaces faster
 Changing Mac faster
 Anonymizing yourself faster
