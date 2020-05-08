@@ -9,7 +9,7 @@ clear
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [[ "$DIR" != "/root/lscript" ]]
 then
-	echo -e "You didn't follow the github's simple install instructions.I will try to do it for you..."
+	echo -e "Attempting to fix install problems..."
 	sleep 4
 	if [[ -d /root/lscript ]]
 	then
@@ -62,20 +62,20 @@ then
 	mkdir /root/handshakes
 	echo -e "Made /root/handshake directory"
 else
-	echo -e "/root/handshakes directory detected.Good."
+	echo -e "/root/handshakes directory detected."
 fi
 if [[ ! -d /root/wordlists ]]
 then
 	mkdir /root/wordlists
 	echo -e "Made /root/wordlists directory"
 else
-	echo -e "/root/wordlists directory detected.Good."
+	echo -e "/root/wordlists directory detected."
 fi
 while true
 do
 clear
 echo -e "Are you \e[1;33mu\e[0mpdating or \e[1;33mi\e[0mnstalling the script?(\e[1;33mu\e[0m/\e[1;33mi\e[0m): "
-echo -e "Only use 'i' for the first time."
+echo -e "Only use 'install' for the first time."
 read UORI
 if [[ "$UORI" = "u" ]]
 then 
@@ -83,13 +83,13 @@ then
 	echo -e "Type 'changelog' to see what's new on this version"
 	sleep 3
 	break
-elif [[ "$UORI" = "i" ]]
+elif [[ "$UORI" = "install" ]]
 then
 	clear
 	BASHCHECK=$(cat ~/.bashrc | grep "bin/lscript")
 	if [[ "$BASHCHECK" != "" ]]
 	then
-		echo -e "I SAID USE i ONLY ONE TIME..........."
+		echo -e "Fatal Error"
 		sleep 3
 	fi
 	echo -e "Adding lscript to PATH so you can access it from anywhere"
